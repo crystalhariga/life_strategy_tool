@@ -100,6 +100,7 @@ def sliderScale(SLUlist, criteria):
 def setChartTheme():
         sns.set_style("whitegrid") # theme
         sns.set_palette("muted") # color palette
+        ## assign color dictionary for each SLA (reference https://stackoverflow.com/questions/71397574/set-same-color-palette-for-multiple-plots-from-several-dataframes)
 
 ## scatterplot
 def scatterPlot(df, x,y,title, color, size,label):
