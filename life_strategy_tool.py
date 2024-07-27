@@ -148,7 +148,7 @@ def stackedChart(data, title):
 
 
 ##### BACKGROUND
-st.header("Background")
+st.markdown('# Life Strategy Tool')
 hbr_link = 'https://www.youtube.com/watch?v=dbiNhAZlXZk'
 st.link_button("Strategic Thinking to Create the Life You Want by HBR", hbr_link)
 ## intro
